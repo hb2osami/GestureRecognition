@@ -1,0 +1,10 @@
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\bin\Debug\ProjetImage.exe
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\bin\Debug\ProjetImage.pdb
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\bin\Debug\Microsoft.Kinect.dll
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\bin\Debug\Microsoft.Kinect.xml
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\obj\Debug\ProjetImage.csprojResolveAssemblyReference.cache
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\obj\Debug\ProjetImage.Form1.resources
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\obj\Debug\ProjetImage.Properties.Resources.resources
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\obj\Debug\ProjetImage.csproj.GenerateResource.Cache
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\obj\Debug\ProjetImage.exe
+c:\users\sami\documents\visual studio 2017\Projects\ProjetImage\ProjetImage\obj\Debug\ProjetImage.pdb

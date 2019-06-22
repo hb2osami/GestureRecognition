@@ -1,0 +1,117 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0A54A2C4-7FDA-4686-A929-86784E9F9D3B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ProjetTarragona</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Kinect, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft SDKs\Kinect\v1.8\Assemblies\Microsoft.Kinect.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProjetImage\bin\Debug\Microsoft.Kinect.dll" />
+    <Content Include="ProjetImage\bin\Debug\Microsoft.Kinect.xml" />
+    <Content Include="ProjetImage\bin\Debug\ProjetImage.exe" />
+    <Content Include="ProjetImage\bin\Debug\ProjetImage.pdb" />
+    <Content Include="ProjetImage\obj\Debug\ProjetImage.csproj.FileListAbsolute.txt" />
+    <Content Include="ProjetImage\obj\Debug\ProjetImage.exe" />
+    <Content Include="ProjetImage\obj\Debug\ProjetImage.pdb" />
+    <Content Include="UpgradeLog.htm" />
+    <Content Include="UpgradeLog2.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\ProjetImage.sqlite" />
+    <None Include=".vs\ProjetImage\v15\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="ProjetImage\obj\Debug\build.force" />
+    <None Include="ProjetImage\obj\Debug\CoreCompileInputs.cache" />
+    <None Include="ProjetImage\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="ProjetImage\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ProjetImage\obj\Debug\ProjetImage.csproj.GenerateResource.Cache" />
+    <None Include="ProjetImage\obj\Debug\ProjetImage.csprojResolveAssemblyReference.cache" />
+    <None Include="ProjetImage\obj\Release\CoreCompileInputs.cache" />
+    <None Include="ProjetImage\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlertMessage.cs" />
+    <Compile Include="Gesture .cs" />
+    <Compile Include="Gesturer.cs" />
+    <Compile Include="Output.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjetImage\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjetImage\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjetImage\GestureRight.cs" />
+    <Compile Include="ProjetImage\Point3D.cs" />
+    <Compile Include="ProjetImage\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjetImage\Properties\Resources.Designer.cs" />
+    <Compile Include="ProjetImage\Properties\Settings.Designer.cs" />
+    <Compile Include="ProjetImage\Segment.cs" />
+    <Compile Include="ProjetImage\SGestureLeft.cs" />
+    <Compile Include="SGesture.cs" />
+    <Compile Include="SGestureForward.cs" />
+    <Compile Include="SGestureRight.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjetImage\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjetImage\obj\Debug\ProjetImage.Form1.resources" />
+    <EmbeddedResource Include="ProjetImage\obj\Debug\ProjetImage.Properties.Resources.resources" />
+    <EmbeddedResource Include="ProjetImage\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProjetImage\bin\Release\" />
+    <Folder Include="ProjetImage\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\obj\x86\Debug\ProjetTarragona.csprojResolveAssemblyReference.cache
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\obj\x86\Debug\ProjetImage.Form1.resources
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\obj\x86\Debug\ProjetTarragona.ProjetImage.Properties.Resources.resources
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\obj\x86\Debug\ProjetTarragona.csproj.GenerateResource.Cache
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\bin\Debug\WindowsApplication.exe
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\bin\Debug\WindowsApplication.pdb
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\obj\x86\Debug\WindowsApplication.exe
+C:\Users\Sami\Documents\Visual Studio 2017\Projects\ProjetImage\obj\x86\Debug\WindowsApplication.pdb
